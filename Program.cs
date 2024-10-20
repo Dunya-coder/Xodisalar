@@ -6,7 +6,7 @@ namespace c
     //Hodisa uchun delegat e'lon qilish
 public delegate void misol(double t);
 //Hodisaga ega sinf eloni
-public class Form1
+public partial  class Form1
 {
     
     public event misol hodisa;//hodisa ishga tushirilganda chaqiriladi
@@ -37,6 +37,8 @@ public class Form1
       double a=42*t+4;
       Console.WriteLine($"a={a}");
     }
+    
+    [STAThread]
     static void Main(string[] args)
     {
         Form1 evt=new Form1();
