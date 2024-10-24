@@ -1,0 +1,1 @@
+Xodisalar delegate yordamida
